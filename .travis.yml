@@ -11,5 +11,4 @@ script:
   - docker run -e CI=true dantedxwolf npm run test
 deploy:
   provider: heroku
-  api_key:
-    secure: "49f867e6-ec44-4eea-a3b9-34ca1ef382ee"
+  api_key: "49f867e6-ec44-4eea-a3b9-34ca1ef382ee"
